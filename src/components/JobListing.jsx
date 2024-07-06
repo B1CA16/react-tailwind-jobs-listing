@@ -7,7 +7,7 @@ const JobListing = ({ job }) => {
   const [showFullDescription, setShowFullDescription] = useState(false);
   let description = job.description;
 
-  if (!showFullDescription && description.length > 87) {
+  if (!showFullDescription && description.length > 90) {
     description = description.substring(0, 90) + "...";
   }
 
@@ -21,7 +21,7 @@ const JobListing = ({ job }) => {
 
         <div className="mb-5 dark:text-white">{description}</div>
         <button onClick={() => setShowFullDescription((prevState) => !prevState)} className="text-indigo-500 mb-5 hover:text-indigo-700" >
-          { description.length > 87 ? 
+          { description.length > 90 ? 
             showFullDescription ? "Less" : "More"
             : ''
           }
