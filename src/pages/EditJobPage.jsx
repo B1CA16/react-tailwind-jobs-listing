@@ -59,7 +59,7 @@ const EditJobPage = ({updateJobSubmit}) => {
             <select
               id="type"
               name="type"
-              className="border rounded w-full py-2 px-3 dark:bg-neutral-950 dark:text-white dark:border-neutral-900"
+              className="border rounded w-full py-2 px-3 dark:bg-neutral-900 dark:text-white dark:border-neutral-900"
               required
               value={type}
               onChange={(e) => setType(e.target.value)}
@@ -79,7 +79,7 @@ const EditJobPage = ({updateJobSubmit}) => {
               type="text"
               id="title"
               name="title"
-              className="border rounded w-full py-2 px-3 dark:bg-neutral-950 dark:text-white dark:placeholder-neutral-400 mb-2 dark:border-neutral-900"
+              className="border rounded w-full py-2 px-3 dark:bg-neutral-900 dark:text-white dark:placeholder-neutral-400 mb-2 dark:border-neutral-900"
               placeholder="eg. Beautiful Apartment In Miami"
               required
               value={title}
@@ -95,7 +95,7 @@ const EditJobPage = ({updateJobSubmit}) => {
             <textarea
               id="description"
               name="description"
-              className="border rounded w-full py-2 px-3 dark:bg-neutral-950 dark:text-white dark:placeholder-neutral-400 dark:border-neutral-900"
+              className="border rounded w-full py-2 px-3 dark:bg-neutral-900 dark:text-white dark:placeholder-neutral-400 dark:border-neutral-900"
               rows="4"
               placeholder="Add any job duties, expectations, requirements, etc"
               value={description}
@@ -110,7 +110,7 @@ const EditJobPage = ({updateJobSubmit}) => {
             <select
               id="salary"
               name="salary"
-              className="border rounded w-full py-2 px-3 dark:bg-neutral-950 dark:text-white dark:border-neutral-900"
+              className="border rounded w-full py-2 px-3 dark:bg-neutral-900 dark:text-white dark:border-neutral-900"
               required
               value={salary}
               onChange={(e) => setSalary(e.target.value)}
@@ -137,7 +137,7 @@ const EditJobPage = ({updateJobSubmit}) => {
               type='text'
               id='location'
               name='location'
-              className='border rounded w-full py-2 px-3 dark:bg-neutral-950 dark:text-white dark:placeholder-neutral-400 mb-2 dark:border-neutral-900'
+              className='border rounded w-full py-2 px-3 dark:bg-neutral-900 dark:text-white dark:placeholder-neutral-400 mb-2 dark:border-neutral-900'
               placeholder='Company Location'
               required      
               value={location}
@@ -155,7 +155,7 @@ const EditJobPage = ({updateJobSubmit}) => {
               type="text"
               id="company"
               name="company"
-              className="border rounded w-full py-2 px-3 dark:bg-neutral-950 dark:text-white dark:placeholder-neutral-400 dark:border-neutral-900"
+              className="border rounded w-full py-2 px-3 dark:bg-neutral-900 dark:text-white dark:placeholder-neutral-400 dark:border-neutral-900"
               placeholder="Company Name"
               value={companyName}
               onChange={(e) => setCompanyName(e.target.value)}
@@ -171,7 +171,7 @@ const EditJobPage = ({updateJobSubmit}) => {
             <textarea
               id="company_description"
               name="company_description"
-              className="border rounded w-full py-2 px-3 dark:bg-neutral-950 dark:text-white dark:placeholder-neutral-400 dark:border-neutral-900"
+              className="border rounded w-full py-2 px-3 dark:bg-neutral-900 dark:text-white dark:placeholder-neutral-400 dark:border-neutral-900"
               rows="4"
               placeholder="What does your company do?"
               value={companyDescription}
@@ -189,7 +189,7 @@ const EditJobPage = ({updateJobSubmit}) => {
               type="email"
               id="contact_email"
               name="contact_email"
-              className="border rounded w-full py-2 px-3 dark:bg-neutral-950 dark:text-white dark:placeholder-neutral-400 dark:border-neutral-900"
+              className="border rounded w-full py-2 px-3 dark:bg-neutral-900 dark:text-white dark:placeholder-neutral-400 dark:border-neutral-900"
               placeholder="Email address for applicants"
               required
               value={contactEmail}
@@ -206,7 +206,7 @@ const EditJobPage = ({updateJobSubmit}) => {
               type="tel"
               id="contact_phone"
               name="contact_phone"
-              className="border rounded w-full py-2 px-3 dark:bg-neutral-950 dark:text-white dark:placeholder-neutral-400 dark:border-neutral-900"
+              className="border rounded w-full py-2 px-3 dark:bg-neutral-900 dark:text-white dark:placeholder-neutral-400 dark:border-neutral-900"
               placeholder="Optional phone for applicants"
               value={contactPhone}
               onChange={(e) => setContactPhone(e.target.value)}

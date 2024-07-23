@@ -80,7 +80,7 @@ const JobPage = ({ deleteJob }) => {
 
               <h3 className="text-xl dark:text-white">Contact Email:</h3>
 
-              <p className="my-2 bg-indigo-100 dark:bg-neutral-950 rounded-md dark:text-neutral-300 p-2 font-bold">
+              <p className="my-2 bg-indigo-100 dark:bg-neutral-950 rounded-md truncate dark:text-neutral-300 p-2 font-bold">
                 {job.company.contactEmail}
               </p>
 
