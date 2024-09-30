@@ -215,7 +215,7 @@ const EditJobPage = ({updateJobSubmit}) => {
 
           <div>
             <button
-              className="bg-indigo-500 hover:bg-indigo-600 dark:bg-indigo-700 dark:hover:bg-indigo-600 text-white font-bold py-2 px-4 mt-8 rounded-full w-full focus:outline-none focus:shadow-outline"
+              className="bg-indigo-500 hover:bg-indigo-600 dark:bg-indigo-700 dark:hover:bg-indigo-600 text-white font-bold py-2 px-4 mt-8 rounded-xl w-full focus:outline-none focus:shadow-outline"
               type="submit"
             >
               Edit Job

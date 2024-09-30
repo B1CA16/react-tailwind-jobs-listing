@@ -93,12 +93,12 @@ const JobPage = ({ deleteJob }) => {
               <h3 className="text-xl font-bold mb-6 dark:text-white">Manage Job</h3>
               <Link
                 to={`/edit-job/${job.id}`}
-                className="bg-indigo-500 hover:bg-indigo-700 dark:bg-indigo-700 dark:hover:bg-indigo-600 text-white text-center font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block"
+                className="bg-indigo-500 hover:bg-indigo-700 dark:bg-indigo-700 dark:hover:bg-indigo-600 text-white text-center font-bold py-2 px-4 rounded-xl w-full focus:outline-none focus:shadow-outline mt-4 block"
                 >Edit Job</Link
               >
               <button
                 onClick={ () => onDeleteClick(job.id) }
-                className="bg-red-500 hover:bg-red-700 dark:bg-red-700 dark:hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block"
+                className="bg-red-500 hover:bg-red-700 dark:bg-red-700 dark:hover:bg-red-600 text-white font-bold py-2 px-4 rounded-xl w-full focus:outline-none focus:shadow-outline mt-4 block"
               >
                 Delete Job
               </button>
